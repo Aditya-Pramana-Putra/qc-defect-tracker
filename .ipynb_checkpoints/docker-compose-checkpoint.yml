@@ -1,0 +1,10 @@
+services:
+  airflow-worker:
+    volumes:
+      - /home/cortex/SharePoint_KBU1_Data_Gathering_Documents:/mnt/sharepoint_data
+  airflow-scheduler:
+    volumes:
+      - /home/cortex/SharePoint_KBU1_Data_Gathering_Documents:/mnt/sharepoint_data
+  airflow-webserver:
+    volumes:
+      - /home/cortex/SharePoint_KBU1_Data_Gathering_Documents:/mnt/sharepoint_data
